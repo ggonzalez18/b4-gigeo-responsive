@@ -1,0 +1,57 @@
+@import '../abstracts/variables';
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: $color_negro;
+    font-weight: 500;
+}
+
+.art {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+.card-titulo {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(70, 70, 70);
+}
+
+.card-texto {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 767px) {
+    h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem !important;
+    }
+    h5 {
+        font-size: 1.75rem !important;
+    }
+    p {
+        font-size: 18px !important;
+    }
+    .logo {
+        font-size: 44px;
+    }
+    .art {
+        font-size: 14px;
+    }
+}

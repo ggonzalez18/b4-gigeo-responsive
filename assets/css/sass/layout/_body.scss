@@ -1,0 +1,45 @@
+.contenedor-perfil {
+    height: 75px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.content-perfil-botones {
+    align-items: center;
+}
+
+.foto-perfil {
+    border-radius: 100px;
+    width: 55px;
+    height: 55px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.card-videos {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+}
+
+.card-cuerpo-texto {
+    flex: 1 1 auto;
+    min-height: 1px;
+}
+
+@media only screen and (max-width: 767px) {
+    .contenedor-botones {
+        display: none;
+    }
+    .contenedor-perfil {
+        margin: auto;
+        height: 105px;
+        padding-bottom: 15px;
+    }
+    .foto-perfil {
+        width: 85px;
+        height: 85px;
+    }
+}

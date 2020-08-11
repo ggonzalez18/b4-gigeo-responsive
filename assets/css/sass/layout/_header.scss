@@ -1,0 +1,24 @@
+.banner_principal {
+    background-image: url('../../../assets/img/image-banner.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center;
+}
+
+.navbar-light .navbar-toggler {
+    color: black;
+    border-color: transparent !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .far {
+        display: none !important;
+    }
+    .fas {
+        display: none !important;
+    }
+    .banner_principal {
+        height: 100px;
+    }
+}
